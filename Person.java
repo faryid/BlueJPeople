@@ -10,6 +10,7 @@ abstract class Person
 {
     private String name;
     private int yearOfBirth;
+    private Address address;
 
     /**
      * Create a person with given name and age.
@@ -50,6 +51,22 @@ abstract class Person
     public int getYearOfBirth()
     {
         return yearOfBirth;
+    }
+
+    /**
+     * Set a new address for this person.
+     */
+    public void setAddress(String street, String town, String postCode)
+    {
+        address = new Address(street, town, postCode);
+    }
+
+    /**
+     * Return the address of this person.
+     */
+    public Address getAddress()
+    {
+        return address;
     }
 
     /**

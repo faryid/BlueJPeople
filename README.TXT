@@ -1,4 +1,4 @@
-BlueJ example project "people"
+BlueJ example project "people2"
 
 Copyright (c) Michael K�lling, Monash University, 1999-2000
 
@@ -27,3 +27,12 @@ This project illustrates:
  - methods, parameters
  - composition
  - ...
+ 
+This project is an extension of "people". It is identical to "people"
+except for the addition of an "Address" class and an address attribute
+in Person.
+
+This project may be used to study object creation and method calls from
+within other object (non-interactive).
+
+https://user.it.uu.se/~torsjark/undervisning/java/program/bluej/examples/
